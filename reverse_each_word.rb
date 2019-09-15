@@ -4,4 +4,5 @@ def reverse_each_word(string)
  
  array.collect { |word, index| 
     array[index] = word.reverse
+ }
 end
